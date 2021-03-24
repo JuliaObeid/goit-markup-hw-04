@@ -779,3 +779,16 @@ ul {
   font-size: 16px;
   line-height: 1.8;
 }
+
+
+/*Overlay*/
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+  background-image: url("../images/lowImgheader.jpg");
+  background-size: contain;
+}
