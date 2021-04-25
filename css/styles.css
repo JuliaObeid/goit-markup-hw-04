@@ -526,7 +526,6 @@ margin-left: 30px;
   margin-right: 0;
 }
 
-
 .occupation {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -566,6 +565,40 @@ margin-left: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+
+.social-icons {
+  display: inline-flex;
+}
+
+.social-icons-svg {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.social-icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.social-icons-item:not(:last-child) {
+ margin-right: 10px;
+}
+
+.social-icons-link:hover .social-icons-svg
+.social-icons-link:focus .social-icons-svg {
+ fill: #fff;
+}
+
+.social-icons-link:hover
+.social-icons-link:focus {
+  fill: var(--accent-color);
 }
 
 /* Footer*/
