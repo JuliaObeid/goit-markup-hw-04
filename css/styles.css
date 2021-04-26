@@ -591,15 +591,16 @@ margin-left: 30px;
  margin-right: 10px;
 }
 
+.social-icons-link:hover
+.social-icons-link:focus {
+  fill: var(--accent-color);
+}
+
 .social-icons-link:hover .social-icons-svg
 .social-icons-link:focus .social-icons-svg {
  fill: #fff;
 }
 
-.social-icons-link:hover
-.social-icons-link:focus {
-  fill: var(--accent-color);
-}
 
 /* Footer*/
 .footer {
@@ -697,6 +698,22 @@ margin-left: 30px;
   font-size: 14px;
   line-height: 1.7;
 }
+
+/* FOOTER Social networks */
+
+.footer-content {
+  display: flex;
+}
+
+.footer-networks {
+  color:var(--primary-white-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
 
 /*styles for portfolio.html*/
 
