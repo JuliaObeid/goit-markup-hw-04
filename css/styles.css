@@ -79,6 +79,19 @@ div {
   margin-left: 93px;
 }
 
+.address-icon {
+  width: 16px;
+  height: 12px;
+  stroke: currentColor;
+  margin-right: 10px;
+}
+
+.address-icon-smartphone {
+  width: 10px;
+  height: 16px;
+  stroke: currentColor;
+  margin-right: 10px;
+}
 
 
 /*.site-nav .item {
@@ -406,7 +419,8 @@ margin-right: 0;
   ;
 }
 
-.icon-attention::before {
+
+/*.icon-attention::before {
   background-image: url("../imagesdecoration/Vector.svg");
 }
 
@@ -421,7 +435,28 @@ margin-right: 0;
 .icon-modern::before {
   background-image: url("../imagesdecoration/astronaut\ 1.svg");
 }
+*/
 
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-svg {
+  width: 70px;
+  height: 70px;
+}
+.icons-svg:hover,
+.icons-svg:focus {
+  stroke: var(--accent-color);
+}
 
 .feature {
   padding-top: 94px;
@@ -584,19 +619,19 @@ margin-left: 30px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--primary-white-color);
 }
 
 .social-icons-item:not(:last-child) {
  margin-right: 10px;
 }
 
-.social-icons-link:hover
+.social-icons-link:hover,
 .social-icons-link:focus {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
-.social-icons-link:hover .social-icons-svg
+.social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
  fill: #fff;
 }
@@ -724,9 +759,9 @@ margin-left: 30px;
   fill: var(--primary-white-color);
 }
 
-.social-icons-link-footer:hover
+.social-icons-link-footer:hover,
 .social-icons-link-footer:focus {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .social-icons-link-footer {
