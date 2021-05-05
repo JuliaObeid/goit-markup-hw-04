@@ -420,6 +420,7 @@ margin-right: 0;
 }
 
 
+
 /*.icon-attention::before {
   background-image: url("../imagesdecoration/Vector.svg");
 }
@@ -646,8 +647,7 @@ margin-left: 30px;
 .thumb-icons {
   display: inline-flex;
   /*display: inline-block;*/
-  /*height: 92px;*/
-  flex-basis: calc(100% / 6 - 30px);
+  margin-bottom: 94px;
 }
 
 
@@ -656,9 +656,10 @@ margin-left: 30px;
   align-items: center;
   justify-content: center;
   height: 92px;
-  width: 170px;
+  flex-basis: calc(100% / 6 - 30px);
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  
 }
 
 .thumb-icons:not(:last-child) {margin-right: 30px;}
