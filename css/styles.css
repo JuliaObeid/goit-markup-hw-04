@@ -82,14 +82,14 @@ div {
 .address-icon {
   width: 16px;
   height: 12px;
-  stroke: currentColor;
+  fill: currentColor;
   margin-right: 10px;
 }
 
 .address-icon-smartphone {
   width: 10px;
   height: 16px;
-  stroke: currentColor;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -178,11 +178,13 @@ a {
 
 .contacts .mail {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+
+  display: flex;
+  align-items: center;
   /*margin-right: 50px;*/
 }
 
@@ -196,6 +198,9 @@ a {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+
+  display: flex;
+  align-items: center;
 }
 .contacts .phone:hover {
   color: var(--accent-color);
@@ -409,7 +414,7 @@ margin-right: 0;
   margin-right: 0;
 }
 
-.title-list::before {
+.title-list-container::before {
   display: block;
   content:"";
   height: 120px;
@@ -639,17 +644,19 @@ margin-left: 30px;
 
  /*CARD-SET*/
 
+ .section-icons {
+
+ }
+
+ .icons-set {
+   display: flex;
+ }
+ 
  .section-title {
-   margin-top: 94px;
+   /*margin-top: 94px;*/
    margin-bottom: 50px;
  }
  
-.thumb-icons {
-  display: inline-flex;
-  /*display: inline-block;*/
-  margin-bottom: 94px;
-}
-
 
 .clients-icons-link {
   display: flex;
@@ -662,7 +669,6 @@ margin-left: 30px;
   
 }
 
-.thumb-icons:not(:last-child) {margin-right: 30px;}
 
 .clients-icons-svg {
   fill: #AFB1B8;
