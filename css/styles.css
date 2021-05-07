@@ -534,6 +534,7 @@ img {
 
 .occupation {
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .team {
@@ -574,7 +575,7 @@ margin-left: 30px;
 
 .occupation {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .section-title {
@@ -603,8 +604,8 @@ margin-left: 30px;
 }
 
 .our-team .occupation {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 10;
+  margin-bottom: 16;
   color: var(--primary-text-color);
 
   font-weight: normal;
@@ -650,7 +651,9 @@ margin-left: 30px;
  /*CARD-SET*/
 
  .section-icons {
-
+   padding-top: 94px;
+   padding-bottom: 94px;
+   background-color: #e5e5e5;
  }
 
  .icons-set {
@@ -673,7 +676,6 @@ margin-left: 30px;
   flex-basis: calc(100% / 6 - 30px);
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  margin-bottom: 94px;
 }
 
 .item-icons:not(:last-child) {
@@ -759,17 +761,21 @@ margin-left: 30px;
   margin-bottom: 9px;
 }
 
-.footer .container {
+/*.footer .container {
   padding-top: 60px;
 }
 
 .footer .container {
   padding-bottom: 60px;
-}
+}*/
 
 /*.footer .address-footer {
   padding-top: 20px;
 }*/
+
+.logo-footer-container {
+  margin-right: 60px;
+}
 
 .footer .address {
   color: var(--primary-white-color);
@@ -805,6 +811,7 @@ margin-left: 30px;
 
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-networks {
