@@ -653,7 +653,6 @@ margin-left: 30px;
  .section-icons {
    padding-top: 94px;
    padding-bottom: 94px;
-   background-color: #e5e5e5;
  }
 
  .icons-set {
@@ -709,6 +708,9 @@ margin-left: 30px;
 /* Footer*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
 .logo-container {
