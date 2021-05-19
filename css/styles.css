@@ -681,6 +681,10 @@ margin-left: 30px;
    align-items: center;
    justify-content: center;
  }
+
+ .icons-set .clients-icons-link {
+   color:var(--accent-color);
+ }
  
  .section-title {
    /*margin-top: 94px;*/
