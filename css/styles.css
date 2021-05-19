@@ -695,6 +695,7 @@ margin-left: 30px;
   
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
 }
 
 .clients-icons-link:hover,
@@ -711,6 +712,32 @@ margin-left: 30px;
  
 }
 
+/*.clients-icons1-svg,
+.clients-icons2-svg,
+.clients-icons3-svg,
+.clients-icons4-svg,
+.clients-icons5-svg,
+.clients-icons6-svg {
+  fill: #AFB1B8;
+  display: flex;
+  text-align: center;
+}
+
+.clients-icons1-svg:hover,
+.clients-icons1-svg:focus,
+.clients-icons2-svg:hover,
+.clients-icons2-svg:focus,
+.clients-icons3-svg:hover,
+.clients-icons3-svg:focus,
+.clients-icons4-svg:hover,
+.clients-icons4-svg:focus,
+.clients-icons5-svg:hover,
+.clients-icons5-svg:focus,
+.clients-icons6-svg:hover, 
+.clients-icons6-svg:focus {
+fill: currentColor;
+}*/
+
 .clients-icons-svg {
   fill: #AFB1B8;
   display: flex;
@@ -719,7 +746,7 @@ margin-left: 30px;
 
 .clients-icons-svg:hover,
 .clients-icons-svg:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /*.icons-set {
